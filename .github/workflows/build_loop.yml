@@ -33,6 +33,12 @@ jobs:
       - name: Customize Loop
         run: | 
 
+          limit_loop_cycle_time 
+          
+# Customize Loop: Download and apply patches
+      - name: Customize Loop
+        run: | 
+
           # The lines below add the customizations listed using the CustomizationSelect script
           # The "\" is a continuation character 
           #   the line following a "\" cannot be blank - that causes the Action to never complete
