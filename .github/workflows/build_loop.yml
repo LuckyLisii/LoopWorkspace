@@ -33,16 +33,8 @@ jobs:
         run: | 
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
-          omnipod_cage \
-          dexcom_sage \
-          future_carbs_4h \
-          low_carb_limit \
-          high_carb_limit \
-          no_auth \
-          limit_loop_cycle_time \
-          customtypeone_looppatches \
-          2002 
-          algorithm_experiments
+          
+          limit_loop_cycle_time 
 
           # the final customization listed above CANNOT have a continuation character "\"
           # more customizations can be pasted after this line
